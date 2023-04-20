@@ -36,6 +36,8 @@ a {
 
 .desktop nav li a {
   color: var(--orange);
+  position: relative;
+  left: 25vh;
 }
 
 header {
@@ -86,6 +88,13 @@ header div ul {
 .top-header {
   color: #fff;
   display: flex;
+}
+
+.top-header-1 {
+  color: #fff;
+  display: flex;
+  position: relative;
+  justify-content: center;
 }
 
 .top-header-pages {

@@ -30,15 +30,21 @@ span {
   font-size: 32px;
   font-weight: 400;
   color: var(--orange);
-  margin-top: 8%;
 }
 
 .box-desc {
-  border: 2.5px solid var(--white);
-  padding: 24px 16px;
+  border: 3.5px solid var(--white);
+  padding: 0px 0px;
   width: fit-content;
   color: var(--black);
   z-index: 3;
+  position: relative;
+}
+
+.first-txt {
+  text-align: start;
+  position: relative;
+  font-size: 15px;
 }
 
 .info {
@@ -385,4 +391,28 @@ span {
   .more-btn {
     display: none;
   }
+
+  .box-desc {
+    border: 3.5px solid var(--white);
+    padding: 20px 40px;
+    width: fit-content;
+    color: var(--black);
+    z-index: 3;
+    position: relative;
+    top: 14vh;
+  }
+
+  .first-txt {
+    text-align: start;
+    position: relative;
+    font-size: 24px;
+  }
+
+  .span {
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--orange);
+    margin-top: -20%;
+  }
+  
 }
